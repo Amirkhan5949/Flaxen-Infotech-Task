@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".network.activity.SplashActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="330dp"
+                android:layout_height="240dp">
+
+                <ImageView
+                    android:layout_marginTop="-10dp"
+                    android:layout_width="330dp"
+                    android:layout_height="240dp"
+                    android:src="@drawable/path"/>
+
+                <TextView
+                    android:id="@+id/text"
+                    android:fontFamily="@font/sf_pro_display"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="60dp"
+                    android:textColor="@color/white"
+                    android:textSize="22sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Welcome"/>
+
+                <TextView
+                    android:fontFamily="@font/sf_pro_display_bold"
+                    android:layout_marginLeft="40dp"
+                    android:layout_below="@+id/text"
+                    android:textColor="@color/white"
+                    android:textSize="23sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Flaxen Infotech"/>
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginTop="-60dp"
+
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+
+                <ProgressBar
+                    android:outlineSpotShadowColor="#3236E9"
+                    android:outlineAmbientShadowColor="#3236E9"
+                    android:layout_centerInParent="true"
+                    android:layout_width="60dp"
+                    android:indeterminateTint="#3236E9"
+                    android:layout_height="60dp"/>
+
+
+                <TextView
+                    android:layout_marginHorizontal="40dp"
+                    android:layout_alignParentBottom="true"
+                    android:fontFamily="@font/dream_her"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="#3236E9"
+                    android:textSize="30sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Choose your future with us"/>
+
+
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
